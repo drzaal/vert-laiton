@@ -32,6 +32,8 @@ hi LineNr			ctermfg=100
 hi SpecialKey		ctermfg=227		ctermbg=022		cterm=bold				
 hi WarningMsg	  	ctermfg=022		ctermbg=220		
 hi ErrorMsg			ctermfg=202		ctermbg=022				
+hi CursorColumn		ctermfg=220		ctermbg=034		cterm=none
+hi CursorLine		ctermfg=226		ctermbg=028		cterm=none				
 
 " Diff highlighting
 "hi DiffAdd							
@@ -79,6 +81,5 @@ hi Todo			ctermfg=192		ctermbg=022		cterm=bold
 
 " Links
 hi! link FoldColumn		Folded
-hi! link CursorColumn	CursorLine
 hi! link NonText		LineNr
 
